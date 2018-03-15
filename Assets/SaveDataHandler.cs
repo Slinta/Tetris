@@ -5,10 +5,8 @@ using System.IO;
 
 public class SaveDataHandler : MonoBehaviour {
 
-	Game game;
 	// Use this for initialization
 	void Start () {
-		game.date = System.DateTime.Now;
 	}
 	
 	// Save function
@@ -17,7 +15,7 @@ public class SaveDataHandler : MonoBehaviour {
 	}
 
 	SaveData Load() {
-		return 
+		return null;
 	}
 
 }
